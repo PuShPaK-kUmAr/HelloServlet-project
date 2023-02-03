@@ -28,4 +28,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.gitignore</name>
+			<type>1</type>
+			<location>C:/Users/LENOVO/eclipse-workspace/PracticeServlet-Project/.gitignore</location>
+		</link>
+	</linkedResources>
 </projectDescription>
