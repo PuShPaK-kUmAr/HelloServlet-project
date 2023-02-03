@@ -9,11 +9,6 @@
 build/classes/
 
 
-# Generated files
-
-src/main/target/
-
-
 # Eclipse project files
 
 .classpath
