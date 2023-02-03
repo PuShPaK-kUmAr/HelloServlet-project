@@ -19,4 +19,14 @@
     <servlet-name>Hello</servlet-name>
     <url-pattern>/Hello</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InputNameServlet</display-name>
+    <servlet-name>InputNameServlet</servlet-name>
+    <servlet-class>InputNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InputNameServlet</servlet-name>
+    <url-pattern>/InputNameServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
