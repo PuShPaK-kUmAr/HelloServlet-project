@@ -23,7 +23,7 @@ Before you begin, make sure you have the following tools installed:
 
 The project will be accessible in your web browser at `http://localhost:8080/ServletProject/Hello` for the first servlet, and 
 The form for entering name can be accessed in your web browser at `http://localhost:8080/PracticeServlet-Project/index.html` 
-After submitting the name, it will redirect to the second servlet and the message "Hello, [name]" can be accessed at http://localhost:8080/PracticeServlet/InputNameServlet?name=[name].
+After submitting the name, it will redirect to the second servlet and the message "Hello, [name]" can be accessed at `http://localhost:8080/PracticeServlet/InputNameServlet?name=[name]`.
 
 
 ## Built With
