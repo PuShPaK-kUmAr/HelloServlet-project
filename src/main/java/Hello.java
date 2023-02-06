@@ -12,7 +12,8 @@ import java.io.PrintWriter;
  * Servlet implementation class Hello
  */
 public class Hello extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	
+	private static final long serialVersionUID = 1L; 
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -23,7 +24,7 @@ public class Hello extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		out.print("<html><body>");
-		out.print("<h3>Hello Servlet, this is my first servlet project!!!</h3>");
+		out.print("<h1>Hello Servlet, this is my first servlet project!!!</h1>");
 		out.print("</body></html>");
 	}
 
