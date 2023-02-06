@@ -14,6 +14,10 @@
     <display-name>Hello</display-name>
     <servlet-name>Hello</servlet-name>
     <servlet-class>Hello</servlet-class>
+    <init-param>
+    	<param-name>author</param-name>
+    	<param-value>Pushpak</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>

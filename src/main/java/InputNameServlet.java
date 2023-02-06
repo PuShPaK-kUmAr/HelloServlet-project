@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -19,6 +20,10 @@ public class InputNameServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter pw = response.getWriter(); 
 		String str = request.getParameter("name");
+		if(str==null) {
+			ServletContext context = getServletContext();  
+			str = (String)context.getAttribute("company"); 
+		}
 		pw.println("<h1>Hello, "+str);
 		pw.close();
 		}
