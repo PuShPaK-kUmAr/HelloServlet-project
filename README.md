@@ -18,7 +18,7 @@ A cookie is a kind of information that is stored at the client side. This exampl
 1. Clone the repository to your local machine.
 2. Open the project in your Java IDE.
 3. Deploy the application to your Apache Tomcat server.
-4. Access the application in your web browser at `http://localhost:8080/Servlet_Login_Logout_Cookies`.
+4. Access the application in your web browser at `http://localhost:8080/Cookies_Login_Logout/index.html`.
 
 ## File Structure
 
