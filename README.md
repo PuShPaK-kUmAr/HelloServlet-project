@@ -5,7 +5,7 @@ A cookie is a kind of information that is stored at the client side. This exampl
 ## Features
 
 - Login page with username and password fields.
-- Profile page that can only be accessed after a successful login.
+- Profile page that can only be accessed after a successful login (for successfull login password should be `password`).
 - Logout link to log out of the application.
 
 ## Requirements
