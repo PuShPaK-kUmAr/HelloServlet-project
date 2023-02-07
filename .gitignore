@@ -1,0 +1,23 @@
+
+# Eclipse settings
+
+
+.settings/
+
+
+
+# Compiled class files
+
+
+build/classes/
+
+
+
+# Eclipse project files
+
+
+.classpath
+
+
+.project
+
